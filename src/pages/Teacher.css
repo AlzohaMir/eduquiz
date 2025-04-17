@@ -1,0 +1,97 @@
+.dashboard-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .dashboard-card {
+    background-color: white;
+    padding: 2.5rem 3rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .user-info, section {
+    margin-bottom: 2rem;
+  }
+  
+  .quiz-section input,
+  .quiz-section textarea,
+  .quiz-section select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .quiz-section button {
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .quiz-section button:hover {
+    background-color: #1a5ed8;
+  }
+  
+  .radio-options {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .quiz-list li, .student-data li {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    list-style-type: none;
+  }
+  
+  .quiz-list button {
+    margin-top: 0.5rem;
+    background-color: #dc3545;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .quiz-list button:hover {
+    background-color: #bb2d3b;
+  }
+  
+  .logout-btn {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #222;
+  }
+  

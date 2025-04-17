@@ -1,0 +1,64 @@
+/* Centering the container */
+.landing-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Card Style */
+  .landing-card {
+    background: white;
+    padding: 3rem 4rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .landing-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .landing-card p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .primary-btn, .secondary-btn {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .primary-btn {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background-color: #1a5ed8;
+  }
+  
+  .secondary-btn {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #ddd;
+  }
+  
