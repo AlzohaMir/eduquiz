@@ -4,7 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCly10vYLInVXrFy9Ftio5Ta00q14gExVY",
+    apiKey: "",
     authDomain: "eduquizhub-b4693.firebaseapp.com",
     projectId: "eduquizhub-b4693",
     storageBucket: "eduquizhub-b4693.firebasestorage.app",
